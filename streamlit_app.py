@@ -95,7 +95,7 @@ with col_left:
 
                 resp = requests.post(url, headers=headers, files=multipart_data, timeout=20)
                 if resp.status_code in (200, 201, 204):
-                    st.success("Image sent successfully!")
+                    st.write("You Just Got Prank")
                 else:
                     st.error(f"Failed to send: {resp.status_code} - {resp.text[:300]}")
             except Exception as e:
