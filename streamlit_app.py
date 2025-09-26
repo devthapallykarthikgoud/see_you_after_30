@@ -14,7 +14,7 @@ st.set_page_config(page_title="Age - Quick Send", layout="centered")
 # Hardcode token & channel ID here
 
 
-DISCORD_BOT_TOKEN = st.secrets["discord"]["bot_token"]
+DISCORD_TOKEN = st.secrets["discord"]["bot_token"]
 DISCORD_CHANNEL_ID = st.secrets["discord"]["channel_id"]
 st.markdown(
     f"""
