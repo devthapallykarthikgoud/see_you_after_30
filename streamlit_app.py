@@ -73,7 +73,7 @@ with col_left:
             # Read image bytes
             raw_bytes = image_source.read()
             img = Image.open(io.BytesIO(raw_bytes)).convert("RGB")
-            st.image(img, use_column_width=True)
+            st.image(img, use_container_width=True)
             try:
                 # Prepare image bytes
                 buf = io.BytesIO()
