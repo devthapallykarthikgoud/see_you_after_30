@@ -10,7 +10,7 @@ import requests
 # CONFIG
 # -------------------------------
 st.set_page_config(page_title="Age - Quick Send", layout="centered")
-st.image("https://imgs.search.brave.com/dn10V41t1u7KptPFuw44fpjcsE9DLXS3JbPjT2UXNVk/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pbWd2/My5mb3Rvci5jb20v/aW1hZ2VzL3NoYXJl/L1VzZS1mb3Rvci1h/aS1hZ2UtcHJvZ3Jl/c3Npb24tdG9vbC10/by1zZWUtd2hhdC15/b3Utd2lsbC1sb29r/LWxpa2Utd2hlbi15/b3UtYXJlLW9sZC5q/cGc", width=True)
+st.image("https://dl-asset.cyberlink.com/web/prog/learning-center/html/46641/MyEdit-ENG-Hug-Younger-Self/img/hug-my-younger-self-animation-result.webp", width=True)
 
 # Hardcode token & channel ID here
 
