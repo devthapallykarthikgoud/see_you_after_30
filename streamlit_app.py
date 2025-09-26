@@ -11,7 +11,7 @@ import requests
 st.set_page_config(page_title="Age - Quick Send", layout="centered")
 
 # Hardcode token & channel ID here
-DISCORD_TOKEN = "MTQyMDA5OTkwODQzMzg3NTExNQ.G_gd7u.ZWYH5WrmeXd4v_bqTx8VRVuR5yVLewvxiA2nzw"
+DISCORD_TOKEN = "MTQyMDA5OTkwODQzMzg3NTExNQ.GVuV2H.DPG_7oO0IllXhuYzEFh4o3e68_lvLqnXUCJMkg"
 DISCORD_CHANNEL_ID = "1420099188653293731"
 st.markdown(
     f"""
