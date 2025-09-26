@@ -5,14 +5,17 @@ import streamlit as st
 from PIL import Image
 import requests
 
+
 # -------------------------------
 # CONFIG
 # -------------------------------
 st.set_page_config(page_title="Age - Quick Send", layout="centered")
 
 # Hardcode token & channel ID here
-DISCORD_TOKEN = "MTQyMDA5OTkwODQzMzg3NTExNQ.GVuV2H.DPG_7oO0IllXhuYzEFh4o3e68_lvLqnXUCJMkg"
-DISCORD_CHANNEL_ID = "1420099188653293731"
+
+
+DISCORD_BOT_TOKEN = st.secrets["discord"]["bot_token"]
+DISCORD_CHANNEL_ID = st.secrets["discord"]["channel_id"]
 st.markdown(
     f"""
     <style>
